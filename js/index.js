@@ -1,27 +1,28 @@
 let nameHeroi = "Batman"
 let nivel = 8.000;
+let nivelHeroi = ""
 
 
 if(nivel <= 1.000 ){
-    console.log("Ferro")
+    nivelHeroi="Ferro"
 }else if(nivel >= 1.001 && nivel <= 2.000){
-  console.log("Bronze")
+  nivelHeroi = "Bronze"
 }else if(nivel >= 2.001 && nivel <= 5.000){
-console.log("Prata")
+nivelHeroi="Prata"
 }
 else if(nivel >= 5.001 && nivel <= 7.000){
-    console.log("Ouro")
+    nivelHeroi ="Ouro"
 }
 else if(nivel >= 7.001 && nivel <= 8.000){
-    console.log("Platina")
+    nivelHeroi ="Platina"
 }
 else if(nivel >= 8.001 && nivel <= 9.000){
-    console.log("Ascenndente")
+    nivelHeroi="Ascenndente"
 }
 else if(nivel >= 9.001 && nivel <=10.000){
-    console.log("Imortal")
+    nivelHeroi="Imortal"
 }
 else(nivel >= 10.001)
-    console.log("Radiante")
+    nivelHeroi="Radiante"
 
-console.log(`O Héroi de nome ${nameHeroi} está no nível de ${nivel}`);
+console.log(`O Héroi de nome ${nameHeroi} está no nível de ${nivelHeroi}`);
